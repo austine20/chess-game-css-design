@@ -1,0 +1,41 @@
+body {
+    background-image: url(Images/bg_chess.jpg);
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+.chess-container {
+    background: #ffcfb6;
+    width: 640px;
+    height: 640px;
+    border: 10px solid #000;
+    margin: auto;
+    border-radius: 4px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.box1 {
+    background:  #000;
+    width: 80px;
+    height: 80px;
+    float: left;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 50px;
+    cursor: pointer;
+    color: white;
+}
+
+.box2 {
+    background: #ffcfb6;
+    width: 80px;
+    height: 80px;
+    float: left;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 50px;
+    cursor: pointer;
+    color: black;
+}
